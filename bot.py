@@ -1,5 +1,4 @@
 # -*- coding: utf8 -*-
-# 5791567885:AAEKkykMnrEiizrBEIxjRPJ-t4L9crW4BpY
 
 import telebot
 from telebot import types
@@ -7,7 +6,7 @@ from pycoingecko import CoinGeckoAPI
 cg = CoinGeckoAPI()
 from py_currency_converter import convert
 
-bot = telebot.TeleBot('5791567885:AAEKkykMnrEiizrBEIxjRPJ-t4L9crW4BpY')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def courses(message):
